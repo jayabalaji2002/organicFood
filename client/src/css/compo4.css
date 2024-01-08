@@ -1,0 +1,121 @@
+/* import bg1 from '../src/assetts/compo4/kateryna-hliznitsova-U5OIeA8tcG0.png' */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.main {
+  background-color: #c3c3c3;
+  width: 1920px;
+  height: 699px;
+  /* flex-shrink: 0; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-image: url("../assetts/compo4/kateryna.png");
+}
+.fade01 {
+  background: #c3c3c3;
+  mix-blend-mode: multiply;
+  width: 100%;
+  height: 699px;
+  position: relative;
+}
+.vector {
+  position: absolute;
+  width: 68.7px;
+  height: 54.31px;
+  top: 168px;
+  left: 926px;
+}
+/* .shop-btn-outer {
+  width: 174px;
+  height: 50px;
+  flex-shrink: 0;
+  background-color: #ffffff;
+  display: flex;
+  margin: 382px 872px 167px 674px;
+  border-radius: 0px 50px;
+  border: 1px solid var(--ffffff, #fff);
+  background: rgba(255, 255, 255, 0.2);
+} */
+/* .shop-btn-inner {
+  background-color: black;
+    padding: 12px 0 0 0 ;
+    margin: 0 auto ;
+ }  */
+
+/* .text01 {
+  padding: 5px 0 0 0 ;
+  color: var(--ffffff, #fff);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+} */
+
+.mainText-01 {
+  position: absolute;
+  width: 767px;
+  height: 180px;
+  top: 253px;
+  left: 577px;
+  /* background-color: yellow; */
+}
+.mainText-02 {
+  display: flex;
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  align-items: center;
+  /* Head-01 */
+  font-family: "Poppins", sans-serif;
+  font-size: 86px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90px; /* 93.75% */
+  text-transform: capitalize;
+  letter-spacing: 0px;
+}
+
+.shop-btn01 {
+  width: 174px;
+  height: 50px;
+  top: 482px;
+  left: 874px;
+  position: absolute;
+  /* background-color: black; */
+}
+.shop-btn02 {
+  width: 174px;
+  height: 50px;
+  /* border-radius: 0px, 50px, 0px, 50px; */
+  /* border: 1px; */
+  /* background-color: black; */
+  border-radius: 0px 50px;
+  border: 1px solid var(--ffffff, #fff);
+  background: rgba(255, 255, 255, 0.2);
+}
+.shop-btn04 {
+  width: 89.29px;
+  height: 17px;
+  top: 17px;
+  left: 42.36px;
+  position: absolute;
+  border: 0;
+  background: none;
+
+  color: var(--ffffff, #fff);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+}
